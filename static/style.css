@@ -1091,6 +1091,28 @@ video {
   width:0px
 }
 
+
+/* Custom Styling required to get the animated cards fitted */
+.tv-card-section{
+  display: inline-block; 
+  padding-left: 200px; 
+  padding-top: 100px;
+}
+
+.tv-card-image{
+  position: relative; 
+  width: 500px; 
+  z-index: 2
+}
+
+.tv-card-video{
+  position: relative; 
+  width: 375px; 
+  bottom: 300px; 
+  left: 68px; 
+  z-index: 1
+}
+
 .device-card-section{
   display: inline-block; 
   padding-left: 200px; 
@@ -1100,8 +1122,19 @@ video {
 .device-card-image{
   position: relative; 
   width: 500px; 
-  z-index: 2'
+  z-index: 2
 }
+
+.device-card-video{
+  position: relative; 
+  width: 295px; 
+  bottom: 325px; 
+  left: 100px; 
+  z-index: 1
+}
+
+
+
 
 @media (min-width: 640px){
 }
