@@ -1091,6 +1091,18 @@ video {
   width:0px
 }
 
+.device-card-section{
+  display: inline-block; 
+  padding-left: 200px; 
+  padding-top: 100px;
+}
+
+.device-card-image{
+  position: relative; 
+  width: 500px; 
+  z-index: 2'
+}
+
 @media (min-width: 640px){
 }
 

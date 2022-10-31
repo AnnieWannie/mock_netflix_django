@@ -38,8 +38,8 @@
     </div>
 </header>
 
-<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
-    <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10 ">
+<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 50vh">
+    <div style = "padding-left: 125px; display: inline-block">
         <h2 class="md:text-5xl text-4xl font-semibold mb-4">
             Enjoy on your TV.
         </h2>
@@ -47,17 +47,16 @@
             Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
         </h5>
     </div>
-    <div class='md:w-1/2 flex justify-center items-center'>
-        <img src={% static 'tv.png' %} class="w-8/12" alt="">
-        <div class='md:w-1/2 flex justify-center items-center'>
-            <video  autoplay playsinline muted loop>
+    <div style="display: inline-block; padding-left: 200px; padding-top: 100px;">
+        <img src={% static 'tv.png' %} style='position: relative; top; 300px; width: 500px; z-index: 2' alt="">
+            <video style='position: relative; width: 375px; bottom: 300px; left: 68px; z-index: 1' autoplay playsinline muted loop>
                 <source src={% static 'video-tv-0819.m4v' %} type='video/mp4'>
             </video>
     </div>
 
 </section>
 
-<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
+<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 50vh;">
     <div class='md:w-1/2 flex justify-center items-center order-1'>
         <img src={% static 'mobile-0819.jpg' %} class="w-8/12" alt="">
     </div>
@@ -73,7 +72,26 @@
     
 </section>
 
-<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 70vh;">
+<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 50vh">
+    <div style = "padding-left: 125px; display: inline-block">
+        <h2 class="md:text-5xl text-4xl font-semibold mb-4">
+            Watch everywhere.
+        </h2>
+        <h5 class="md:text-xl text-lg">
+            Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.
+        </h5>
+    </div>
+    <div style="display: inline-block; padding-left: 200px; padding-top: 100px;">
+        <img src={% static 'device-pile.png' %} style='position: relative; width: 500px; z-index: 2' alt="">
+            <video style='position: relative; width: 295px; bottom: 325px; left: 100px; z-index: 1' autoplay playsinline muted loop>
+                <source src={% static 'video-devices.m4v' %} type='video/mp4'>
+            </video>
+    </div>
+
+</section>
+
+
+<section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 50vh;">
     <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10">
         <h2 class="md:text-5xl text-4xl font-semibold mb-4">
             Create profiles for kids.
@@ -88,10 +106,9 @@
 </section>
 <footer class=" px-5 py-10 ">
     <ul class="flex justify-between items-center">
-        
-        <li>&copy; 2021</li>
-        <li> Made with Django and Tailwind</li>
-        <li>By OtchereDev</li>
+        <li>&copy; 2022 Netflix<br/><i>This website is for demonstration purposes only</i></li>
+        <li>Made with Django, Tailwind, Love, and the help of OtchereDev</li>
+        <li>By Anthony Elia</li>
     </ul>
 </footer>
 {% endblock content %}
