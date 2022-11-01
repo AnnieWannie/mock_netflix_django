@@ -92,6 +92,9 @@
 
 
 <section class='flex flex-col md:flex-row items-center border-gray-900 border-b-8' style="min-height: 50vh;">
+    <div class='md:w-1/2 flex justify-center items-center'>
+        <img src={% static 'netflix_kid.png' %} class="w-8/12" alt="">
+    </div>
     <div class="md:w-1/2 flex flex-col justify-center text-center md:text-left p-5 md:p-10">
         <h2 class="md:text-5xl text-4xl font-semibold mb-4">
             Create profiles for kids.
@@ -100,15 +103,32 @@
             Send kids on adventures with their favorite characters in a space made just for them—free with your membership.
         </h5>
     </div>
-    <div class='md:w-1/2 flex justify-center items-center'>
-        <img src={% static 'netflix_kid.png' %} class="w-8/12" alt="">
-    </div>
+  
 </section>
-<footer class=" px-5 py-10 ">
+
+<section class='py-10 items-center text-center border-gray-900 border-b-8' style="min-height: 50vh;">
+    <div class="md:text-5xl text-4xl font-semibold mb-4 text-center display-block">  
+        <h2 class='py-10'>
+            Frequently Asked Questions
+        </h2>     
+        <ul>
+            <li><button class='faq-question-card'>What is netflix?</button></li>
+            <li><button class='faq-question-card'>How much does Netflix cost? </button></li>
+            <li><button class='faq-question-card'>Where can I watch? </button></li>
+            <li><button class='faq-question-card'>How do I cancel? </button></li>
+            <li><button class='faq-question-card'>What can I watch on Netflix? </button></li>
+            <li><button class='faq-question-card'>Is Netflix good for kids? </button></li>
+        </ul>
+    </div>
+  
+</section>
+
+
+<footer class=" px-2 py-10 ">
     <ul class="flex justify-between items-center">
-        <li>&copy; 2022 Netflix<br/><i>This website is for demonstration purposes only</i></li>
-        <li>Made with Django, Tailwind, Love, and the help of OtchereDev</li>
-        <li>By Anthony Elia</li>
+        <li>&copy; 2022 <a href='https://netflix.com'>Netflix</a><br/><i>This website is for demonstration purposes</i><br/>Created with the help of <a href='https://github.com/OtchereDev'>OtchereDev</a></li>
+        <li>Made with Django, Tailwind, and Love</li>
+        <li>By <a href='https://github.com/AnnieWannie'>Anthony Elia</a></li>
     </ul>
 </footer>
 {% endblock content %}
