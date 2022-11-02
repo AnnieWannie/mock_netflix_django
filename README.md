@@ -1,5 +1,5 @@
 # mock_netflix_django
-## Viewable at https://mock-netflix-dj.herokuapp.com/
+## Viewable [HERE](https://mock-netflix-dj.herokuapp.com/)
 
 A mockup of the Netflix website
 
