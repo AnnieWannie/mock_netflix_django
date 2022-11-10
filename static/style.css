@@ -1120,13 +1120,17 @@ video {
 }
 
 .device-card-image{
+  display: inline-block;
   position: relative; 
+  overflow: hidden;
   width: 500px; 
   z-index: 2
 }
 
 .device-card-video{
+  display: inline-block;
   position: relative; 
+  overflow: hidden;
   width: 295px; 
   bottom: 325px; 
   left: 100px; 
