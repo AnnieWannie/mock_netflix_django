@@ -1101,13 +1101,13 @@ video {
 
 .tv-card-image{
   position: relative; 
-  width: 500px; 
+  max-width: 500px; 
   z-index: 2
 }
 
 .tv-card-video{
   position: relative; 
-  width: 375px; 
+  max-width: 375px; 
   bottom: 300px; 
   left: 68px; 
   z-index: 1
@@ -1120,20 +1120,17 @@ video {
 }
 
 .device-card-image{
-  display: inline-block;
   position: relative; 
-  overflow: hidden;
-  width: 500px; 
+  max-width: 500px; 
+  right: 75px;
   z-index: 2
 }
 
 .device-card-video{
-  display: inline-block;
   position: relative; 
-  overflow: hidden;
-  width: 295px; 
+  max-width: 305px; 
   bottom: 325px; 
-  left: 100px; 
+  left: 25px; 
   z-index: 1
 }
 
