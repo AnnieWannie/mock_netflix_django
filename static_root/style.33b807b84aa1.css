@@ -805,7 +805,6 @@ object {
 
 .p-5{
   padding: 1.25rem;
-  text-align: center;
 }
 
 .p-8{
@@ -1088,10 +1087,6 @@ object {
 
 
 /* Custom Styling required to get the animated cards fitted */
-.tv-card-section{
-  display: inline-block; 
-}
-
 .tv-card-image{
   position: relative; 
   max-width: 700px; 
@@ -1104,11 +1099,6 @@ object {
   bottom: 380px; 
   left: 85px; 
   z-index: 1
-}
-
-.device-card-section{
-  display: inline-block; 
-  padding-left: 141px;
 }
 
 .device-card-image{
