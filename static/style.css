@@ -1129,7 +1129,8 @@ object {
 /* Styling for FAQ section */
 
 .faq-question-card{
-  width: 815px;
+  width: 100%;
+  max-width: 800px;
   height: 75px;
   background-color: rgb(48, 48, 48);
   margin-bottom: 8px;
