@@ -805,6 +805,7 @@ object {
 
 .p-5{
   padding: 1.25rem;
+  text-align: center;
 }
 
 .p-8{
@@ -1089,42 +1090,39 @@ object {
 /* Custom Styling required to get the animated cards fitted */
 .tv-card-section{
   display: inline-block; 
-  padding-left: 200px; 
-  padding-top: 100px;
 }
 
 .tv-card-image{
   position: relative; 
-  max-width: 500px; 
+  max-width: 700px; 
   z-index: 2
 }
 
 .tv-card-video{
   position: relative; 
-  max-width: 375px; 
-  bottom: 300px; 
-  left: 68px; 
+  max-width: 465px; 
+  bottom: 380px; 
+  left: 85px; 
   z-index: 1
 }
 
 .device-card-section{
   display: inline-block; 
-  padding-left: 200px; 
-  padding-top: 100px;
+  padding-left: 141px;
 }
 
 .device-card-image{
   position: relative; 
-  max-width: 500px; 
+  max-width: 640px; 
   right: 75px;
   z-index: 2
 }
 
 .device-card-video{
   position: relative; 
-  max-width: 305px; 
-  bottom: 325px; 
-  left: 25px; 
+  max-width: 394px; 
+  bottom: 429px; 
+  left: 43px; 
   z-index: 1
 }
 
