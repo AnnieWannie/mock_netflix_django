@@ -7,3 +7,5 @@ Created in Python using the Django framework
 Styled using Tailwind CSS
 
 *Work in progress*
+
+![Homepage](static/homepage.png)
